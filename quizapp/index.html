@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="card">
+  <div id="quiz">
+    <h1>JavaScript Quiz</h1>
+    <p id="question"></p>
+    <ul id="choices">
+      <li><input type="radio" name="choice" value="A"><span id="choiceA"></span></li>
+      <li><input type="radio" name="choice" value="B"><span id="choiceB"></span></li>
+      <li><input type="radio" name="choice" value="C"><span id="choiceC"></span></li>
+    </ul>
+    <button id="submitBtn">Submit</button>
+  </div>
+  <div id="result" class="hidden">
+    <p id="score"></p>
+  </div>
+  <div id="timer">Time Left: <span id="time"></span></div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
